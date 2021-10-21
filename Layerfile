@@ -1,0 +1,14 @@
+
+FROM vm/ubuntu:18.04
+
+USER nonroot
+
+CACHE ~/.yarn/cache
+CACHE ~/.next/cache
+
+COPY . .
+
+CHECKPOINT before-sleep
+RUN sleep 20
+
+RUN echo hello
