@@ -12,7 +12,7 @@ CHECKPOINT before-sleep
 RUN sleep 20
 
 RUN echo hello
-RUN echo hellohaha
+RUN echo hellohahaXIXI
 
 RUN curl -X POST \
     -H 'Content-Type: application/json' \
