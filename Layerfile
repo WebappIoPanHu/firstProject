@@ -13,12 +13,11 @@ RUN sleep 20
 
 RUN echo hello
 
-my_token="(your API key)"
-curl -X POST \
+RUN curl -X POST \
     -H 'Content-Type: application/json' \
-    -d '{"branch": "master", \
+    -d '{"branch": "main", \
          "ref": "9abc2ac68d52afe1a5a3fbc724d031af5a397204", \
          "accept_buttons": "true", \
          "extra": "some extra data exposed as API_EXTRA variable" \
         }' \
-    "http://webapplocal.io/api/v1/run/repo_name?token=${my_token}"
+    "http://webapplocal.io/api/v1/run/repo_name"
