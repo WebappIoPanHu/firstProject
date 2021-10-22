@@ -16,7 +16,7 @@ RUN echo hello
 RUN curl -X POST \
     -H 'Content-Type: application/json' \
     -d '{"branch": "main", \
-         "ref": "9abc2ac68d52afe1a5a3fbc724d031af5a397204", \
+         "ref": "cf9a984ce086757c69d29395f8607e20dcdc2d15", \
          "accept_buttons": "true", \
          "extra": "some extra data exposed as API_EXTRA variable" \
         }' \
