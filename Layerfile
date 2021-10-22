@@ -21,4 +21,4 @@ RUN curl -X POST \
          "accept_buttons": "true", \
          "extra": "some extra data exposed as API_EXTRA variable" \
         }' \
-    "https://webapp.io/api/v1/run/firstProject?token=live_ZK2fTM6tUE2DWchq4oZSURiZIsuLp_SagHLNH_eQ-LAz"
+    "http://webapplocal.io/api/v1/run/firstProject?token=live_g9P__ZSlo5jl8YFo3hDCnKe4fCZoC0d47RraAdBZrEoz"
