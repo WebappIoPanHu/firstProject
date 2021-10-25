@@ -14,6 +14,8 @@ RUN sleep 20
 RUN echo hello
 RUN echo hellohaha
 
+RUN echo hellohahabibi
+
 RUN curl -X POST \
     -H 'Content-Type: application/json' \
     -d '{"branch": "main", \
