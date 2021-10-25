@@ -17,7 +17,7 @@ RUN echo hellohaha
 RUN curl -X POST \
     -H 'Content-Type: application/json' \
     -d '{"branch": "main", \
-         "ref": "cf9a984ce086757c69d29395f8607e20dcdc2d15", \
+         "ref": "aa7e783aa25d6ea90435e635341a0d16094a7f85", \
          "accept_buttons": "true", \
          "extra": "some extra data exposed as API_EXTRA variable" \
         }' \
