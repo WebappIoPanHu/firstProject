@@ -1,3 +1,2 @@
 FROM vm/ubuntu:18.04
-RUN ECHO haha
-RUN ECHO xixi
+RUN echo haha
